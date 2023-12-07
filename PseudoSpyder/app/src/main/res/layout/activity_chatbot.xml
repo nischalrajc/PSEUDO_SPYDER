@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/lyt" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/tableRow18" android:gravity="center" android:background="#DAF7A6" android:layout_gravity="center">
+
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceMedium" android:text="" android:layout_marginLeft="20dp"/>
+
+    </TableRow>
+
+
+    <ScrollView android:layout_height="350dp" android:layout_width="400dp" android:id="@+id/scrollView1">
+
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linear1"/>
+
+    </ScrollView>
+
+
+    <TableRow android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/tableRow1" android:gravity="center" android:layout_gravity="center">
+
+
+        <EditText android:layout_height="100dp" android:layout_width="240dp" android:id="@+id/editText1" android:hint="Type Here" android:ems="10">
+
+            <requestFocus/>
+
+        </EditText>
+
+        <Button android:layout_height="40dp" android:layout_width="70dp" android:id="@+id/button1" android:background="#FA8072" android:layout_gravity="center" android:text="Send" style="?android:attr/buttonStyleSmall"/>
+
+    </TableRow>
+
+</LinearLayout>
